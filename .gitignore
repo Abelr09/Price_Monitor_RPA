@@ -1,0 +1,35 @@
+# Credenciales y datos sensibles
+credentials.json
+.env
+*.key
+*.pem
+
+# Archivos generados por Rocketbot
+logs/
+*.log
+temp/
+tmp/
+
+# Archivos exportados (Excel, PDF, etc.)
+exports/
+*.xlsx
+*.xls
+*.csv
+*.pdf
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
